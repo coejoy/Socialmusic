@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2? family= Edu+NSW+ACT+Foundation:wght@400;500;700 & family= Finger+Paint & family= Great+Vibes & family= Instrumento+Serif & family= Montserrat:wght@300;400;700;800 & family= Nova+Slim & family= Pompiere & family= Roboto+Condensed:ital,wght@0,300;1,300 & family= Sirin+Stencil & exibir=trocar');
+@import url('https://fonts.googleapis.com/css2? family= Edu+NSW+ACT+Foundation:wght@400;500;700 & family= Finger+Paint & family= Great+Vibes & family= Instrumento+Serif & family= Montserrat:wght@300;400;700;800 & family= Nova+Slim & family= Pompiere & família= Poppins:ital,wght@0,200;0,300;0,400;1,300;1,400 &family= Roboto+Condensed:ital,wght@0,300;1,300 & family= Sirin+Stencil & exibir=trocar');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:  'Sirin Stencil', cursiva;
+}
+
+body{
+    background-image: url('/img/imagesfundo.jpg');
+    
+}
+ header{
+    background: rgb(246,231,0);
+background: linear-gradient(0deg, rgba(246, 230, 0, 0.711) 0%, rgba(15,83,3,1) 25%, rgba(207,3,3,1) 41%, rgba(9,147,6,0.3925945378151261) 79%);
+    padding: 20px 70px;
+ }
+
+ .navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   box-shadow: 0 0.1rem 0.1rem  #ccc;
+   padding: 18px 40px;
+   width: 100%;
+   cursor: pointer;
+   transition: all 0.5s;
+ }
+ .navigation .logo{
+    width: 50px;
+    font-size: 1.7rem;
+    font-weight: 500;
+ }
+ .navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+ }
+
+ .navigation ul li a{
+    color:black;
+    font-weight: 900;
+    padding-bottom: 5px;
+    font-family:  'Poppins', sem serifa;
+    transition: all 0.5s ease-in-out;
+ }
+ .navigation ul li a:hover{
+color: black;
+border-bottom: 1px solid;
+}
+
+.navigation .check{
+    color: #fff;
+    border-bottom: 1px  solid #fff;
+}
+.navigation i{
+        cursor: pointer;
+        font-size: 1.5rem;
+    }
+    .menu{
+        cursor: pointer;
+        
+     }
+     
+     .menu .bar{
+         display: block;
+         width: 27px;
+         height: 3px;
+            border-radius: 3px;
+            background-color: var(--dark);
+            margin: 7px auto;
+            
+            
+        }
+    
+        .menu .bar:nth-child(1),
+        .menu .bar:nth-child(3){ 
+        background: yellow;
+        
+    }
+    .menu .bar:nth-child(2){
+        background: red;
+    }
